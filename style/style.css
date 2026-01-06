@@ -1,20 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.font-open-sans{
+.font-open-sans {
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;  
+  font-optical-sizing: auto;
 }
-header{
-    background-color: #FFF8F3;
-    
-    background: url("../images/developer.png"),url("../images/header_bg.png"),#FFF8F3;
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
+header {
+  background-color: #fff8f3;
+
+  background: url("../images/developer.png"), url("../images/header_bg.png"),
+    #fff8f3;
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 }
-nav{
+nav {
   width: 71%;
   height: 161px;
   display: flex;
@@ -24,162 +25,160 @@ nav{
   align-items: center;
 }
 
-ul{
+ul {
   display: flex;
   gap: 51px;
   color: #474747;
   font-size: 20px;
   align-items: center;
 }
-ul li a{
+ul li a {
   text-decoration: none;
 }
-.logo{
+.logo {
   font-weight: bold;
   font-size: 45px;
 }
-#r{
-  color: #FD6E0A;
+#r {
+  color: #fd6e0a;
 }
-.btn{
+.btn {
   padding: 19px 36px;
   height: 65px;
   width: 151px;
   border: 0;
   border-radius: 5px;
-  background-color: #FD6E0A;
+  background-color: #fd6e0a;
   color: white;
   font-size: 20px;
   font-weight: bold;
   align-items: center;
-
 }
 
-.text-container h2{
+.text-container h2 {
   color: #474747;
   font-weight: 600;
   font-size: 45px;
 }
-.text-container h1{
+.text-container h1 {
   font-weight: bold;
   font-size: 85px;
 }
-.text-container p{
+.text-container p {
   color: #757575;
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
   margin: 20px 0px;
-
 }
-.text-container .btn{
+.text-container .btn {
   padding: 20px 30px;
   height: 65px;
   width: 151px;
   border: 0;
   border-radius: 5px;
-  background-color: #FD6E0A;
+  background-color: #fd6e0a;
   color: white;
   font-size: 14px;
   font-weight: bolder;
   align-items: center;
-  
 }
-#banner{
- /* border: 1px solid red; */
+#banner {
   margin: 0px 0px 0px 300px;
   width: 80%;
   height: 676px;
   display: flex;
   justify-content: space-between;
   max-width: 1480px;
-
 }
 
-#about{
-  padding: 130px 230px;
-  
+#about {
+  padding: 130px 0;
+  display: flex;
+  justify-content: center;
 }
-.about-con{
-  background-color: #FFF8F3;
+.about-con {
+  background-color: #fff8f3;
   text-align: center;
   border-radius: 10px;
   max-width: 1140px;
   padding: 131px 157px 131px 156px;
+  margin: 0 auto;
 }
-.about-con h2{
+.about-con h2 {
   color: #181818;
   font-size: 35px;
   font-weight: bold;
   margin-bottom: 30px;
-
 }
-.about-con p{
+.about-con p {
   color: #757575;
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
   margin-bottom: 30px;
-
 }
 
-.cards{
+.cards {
   display: flex;
-  justify-content: space-around;
-
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
 }
-.cards p{
-  font-size: 20px ;
+.cards p {
+  font-size: 20px;
   line-height: 30px;
   font-weight: 400;
   margin-bottom: 0px;
 }
-.cards h4{
+.cards h4 {
   font-size: 20px;
   line-height: 30px;
   font-weight: bold;
 }
 
-.deeds{
+.deeds {
   padding: 0px 716px 10px 717px;
   font-weight: bold;
   font-size: 35px;
-  margin:0px;
-
+  margin: 0;
+  text-align: center;
 }
-.deedss{
+.deedss {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
   color: #757575;
   text-align: center;
-  padding: 30px 387px 50px 386px;
-  margin: 0px;
-}
-.cg{
-  display: flex;
-  gap: 24px;
-  padding: 50px 0px 130px 230px;
+  padding: 30px 10% 50px 10%;
+  margin: 0;
   
 }
+.cg {
+  display: flex;
+  gap: 24px;
+  padding: 50px 0 130px 0;
+  justify-content: center;
+
+}
+
+
 .cp {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.196);
   height: 377px;
   width: 267px;
   border-radius: 5px;
-
-
 }
 
-.cc{
+.cc {
   padding: 104px 33px 30px 30px;
 }
-.cg .cp .cc h4{
+.cg .cp .cc h4 {
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 20px;
 }
-#skills{
-  background-color: #f3f1f1;
+#skills {
+  background-color:#fff8f3;
 }
