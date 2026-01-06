@@ -86,13 +86,56 @@ ul li a{
   
 }
 #banner{
- border: 1px solid red;
+ /* border: 1px solid red; */
   margin: 0px 0px 0px 300px;
   width: 80%;
   height: 676px;
   display: flex;
   justify-content: space-between;
   max-width: 1480px;
-  
 
+}
+
+#about{
+  padding: 130px 230px;
+  
+}
+.about-con{
+  background-color: #FFF8F3;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 1140px;
+  padding: 131px 157px 131px 156px;
+}
+.about-con h2{
+  color: #181818;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 30px;
+
+}
+.about-con p{
+  color: #757575;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 30px;
+
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+
+}
+.cards p{
+  font-size: 20px ;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.cards h4{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
 }
