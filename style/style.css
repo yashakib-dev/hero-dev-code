@@ -55,11 +55,7 @@ ul li a {
   align-items: center;
 }
 
-.text-container h2 {
-  color: #474747;
-  font-weight: 600;
-  font-size: 45px;
-}
+   /*  */
 .text-container h1 {
   font-weight: bold;
   font-size: 85px;
@@ -194,3 +190,175 @@ ul li a {
   width: 71%;
   max-width: 1140px;
 }
+
+
+/* Resume Section */
+#resume{
+  padding: 130px 277px 227px 230px;
+
+}
+.edex{
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 24px;
+}
+#resume h2{
+  text-align: center;
+  margin-bottom: 113px;
+  font-weight: bold;
+  font-size: 35px;
+}
+.ed h3{
+  font-weight: bold;
+  font-size: 30px;
+  color: #2e3f49;
+  margin-bottom: 30px;
+
+}
+.ed-card h4{
+  font-weight: bold;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.ed-card h5{
+  font-weight: 600  ;
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.ed-card p{
+  color: #757575;
+  margin-bottom: 30px;
+  line-height: 28px;
+  font-size: 16px;
+
+}
+
+.ex h3{
+  font-weight: bold;
+  font-size: 30px;
+  color: #2e3f49;
+  margin-bottom: 30px;
+
+}
+.ex-card h4{
+  font-weight: bold;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.ex-card h5{
+  font-weight: 600  ;
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.ex-card p{
+  color: #757575;
+  margin-bottom: 30px;
+  line-height: 28px;
+  font-size: 16px;
+
+}
+hr{
+  color: #D1D1D1;
+  margin-bottom: 30px;
+}
+.text{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 113px;
+}
+
+/* footer */
+.foot{
+  display: flex;
+  background-color: #fff8f3 ;
+}
+.contact{
+  padding: 130px 0px 526px 230px;
+}
+.contact h2{
+  color: #181818;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+.contact p{
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 30px;
+  line-height: 28px;
+}
+.message{
+  padding: 130px 230px 218px 117px;
+}
+.message h2{
+  color: #181818;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+.foot form{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.foot form input[type="text"]{
+  width: 461px;
+  height: 64px;
+  color: #757575;
+  background-color: #FFFFFF;
+  border: none;
+  padding: 18px 349px 18px 30px;
+  border-radius: 5px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: 400;
+
+
+}
+.foot form input[type="email"]{
+   width: 461px;
+  height: 64px;
+  color: #757575;
+  background-color: #FFFFFF;
+  border: none;
+  padding: 18px 349px 18px 30px;
+  border-radius: 5px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.foot form textarea{
+  
+  height: 180px;
+  width: 461px;
+  color: #757575;
+   background-color: #FFFFFF;
+  border: none;
+  padding: 18px 349px 18px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+.foot form input[type="submit"]{
+   height: 64px;
+  width: 150px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  display: inline-block;
+
+}
+
