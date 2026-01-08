@@ -13,7 +13,7 @@ header {
   background: url("../images/developer.png"), url("../images/header_bg.png"),
     #fff8f3;
   background-repeat: no-repeat;
-  background-position: 74px 105px, 1070px 500px;
+  background-position: 74px 105px, bottom right;
   
   
 }
