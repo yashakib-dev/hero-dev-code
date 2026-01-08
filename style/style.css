@@ -13,7 +13,9 @@ header {
   background: url("../images/developer.png"), url("../images/header_bg.png"),
     #fff8f3;
   background-repeat: no-repeat;
-  background-position: top left, bottom right;
+  background-position: 74px 105px, 1070px 500px;
+  
+  
 }
 nav {
   width: 71%;
