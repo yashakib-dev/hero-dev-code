@@ -194,8 +194,10 @@ ul li a {
 
 /* Resume Section */
 #resume{
-  padding: 130px 277px 227px 230px;
-
+  width: 71%;
+  max-width: 1140px;
+  justify-content: center;
+  margin: 0 auto;
 }
 .edex{
   display: flex;
@@ -207,6 +209,7 @@ ul li a {
   margin-bottom: 113px;
   font-weight: bold;
   font-size: 35px;
+  margin-top: 130px;
 }
 .ed h3{
   font-weight: bold;
@@ -269,16 +272,17 @@ hr{
   text-align: center;
   margin-top: 50px;
   margin-bottom: 113px;
+  
 }
 
 /* footer */
-.foot{
-  display: flex;
+.footer{
+  
   background-color: #fff8f3 ;
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
-.contact{
-  padding: 130px 0px 526px 230px;
-}
+
 .contact h2{
   color: #181818;
   font-size: 35px;
@@ -294,9 +298,7 @@ hr{
   margin-bottom: 30px;
   line-height: 28px;
 }
-.message{
-  padding: 130px 230px 218px 117px;
-}
+
 .message h2{
   color: #181818;
   font-size: 35px;
@@ -304,11 +306,17 @@ hr{
   margin-bottom: 20px;
 
 }
-.foot form{
-  display: flex;
-  flex-direction: column;
-  align-items: left;
+.foot{
+  display:flex ;
+  width: 71%;
+  max-width: 1140px;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 200px;
+
+
 }
+
 .foot form input[type="text"]{
   width: 461px;
   height: 64px;
@@ -358,7 +366,7 @@ hr{
   font-size: 20px;
   font-weight: bold;
   margin-top: 20px;
-  display: inline-block;
+  display: block;
 
 }
 
