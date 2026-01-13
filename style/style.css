@@ -58,6 +58,10 @@ ul li a {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
+.photo img{
+  width: 115%;
+  height: 100%;
+}
 .text-container h1 {
   font-weight: bold;
   font-size: 85px;
@@ -359,12 +363,11 @@ hr {
 .message{
   width: 100%;
 }
-.hide{
-  display: none;
-}
+
+
+
 @media screen and (max-width:576px){
   
-
 /* About section */
 .about-con{
   padding: 80px 30px 80px 30px;
